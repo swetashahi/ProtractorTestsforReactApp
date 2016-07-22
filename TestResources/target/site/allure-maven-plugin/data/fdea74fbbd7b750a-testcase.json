@@ -1,0 +1,47 @@
+{
+  "uid" : "fdea74fbbd7b750a",
+  "name" : "Should slide the risk profile slider to 8",
+  "title" : "Should slide the risk profile slider to 8",
+  "time" : {
+    "start" : 1469178776960,
+    "stop" : 1469178789343,
+    "duration" : 12383
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Expected false to be true.",
+    "stackTrace" : "Error: Failed expectation\n    at Object.<anonymous> (/Users/Sweta/Downloads/apache-tomcat-9.0.0.M9/webapps/asset-manager-react-master/TestResources/spec.js:128:39)\n    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:96:23\n    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1082:7)\n    at controlFlowExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:82:18)\n    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2913:14)\n    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2896:21)\n    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2820:25\n    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:639:7"
+  },
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "382fbea244eb5f10",
+    "name" : "React Risk assessment app",
+    "title" : "React Risk assessment app"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "d842997f-1d19-4406-9549-611c675f8eef-attachment.png",
+    "type" : "image/png",
+    "size" : 34275,
+    "uid" : "6b7f64d4ba8d7fb6"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "React Risk assessment app"
+  }, {
+    "name" : "suite-title",
+    "value" : "React Risk assessment app"
+  } ],
+  "parameters" : [ ]
+}

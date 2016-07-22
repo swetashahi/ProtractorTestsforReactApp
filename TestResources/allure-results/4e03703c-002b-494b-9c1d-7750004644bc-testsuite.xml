@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1469227066615" stop="1469227154247">
+	<name>React Risk assessment app</name>
+	<title>React Risk assessment app</title>
+	<test-cases>
+		<test-case start="1469227066616" stop="1469227073265" status="passed">
+			<name>should have a title</name>
+			<title>should have a title</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="aa2154dd-a86a-436a-9c9e-55fc632f8276-attachment.png" type="image/png" size="33279"/>
+			</attachments>
+		</test-case>
+		<test-case start="1469227073266" stop="1469227078733" status="passed">
+			<name>should have default text as expected</name>
+			<title>should have default text as expected</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e11d271e-0781-4b2f-90bd-5add2267474e-attachment.png" type="image/png" size="33279"/>
+			</attachments>
+		</test-case>
+		<test-case start="1469227078733" stop="1469227091220" status="failed">
+			<name>Should slide the risk profile slider to 6</name>
+			<title>Should slide the risk profile slider to 6</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="af65eada-a7a1-434c-9e58-34c8eaa160d9-attachment.png" type="image/png" size="34126"/>
+			</attachments>
+			<failure>
+				<message>Expected false to be true.</message>
+				<stack-trace>Error: Failed expectation
+    at Object.&lt;anonymous&gt; (/Users/Sweta/Downloads/apache-tomcat-9.0.0.M9/webapps/asset-manager-react-master/TestResources/spec.js:68:39)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:96:23
+    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1082:7)
+    at controlFlowExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:82:18)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2913:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2896:21)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2820:25
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:639:7</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1469227091220" stop="1469227103719" status="passed">
+			<name>Should slide the risk profile slider to 7</name>
+			<title>Should slide the risk profile slider to 7</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="0d0078a8-a6c7-4067-ad52-d6aa31638c4a-attachment.png" type="image/png" size="34190"/>
+			</attachments>
+		</test-case>
+		<test-case start="1469227103719" stop="1469227116136" status="failed">
+			<name>Should slide the risk profile slider to 8</name>
+			<title>Should slide the risk profile slider to 8</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e3334fee-bf3c-42c3-89c5-c3289509222c-attachment.png" type="image/png" size="34275"/>
+			</attachments>
+			<failure>
+				<message>Expected false to be true.</message>
+				<stack-trace>Error: Failed expectation
+    at Object.&lt;anonymous&gt; (/Users/Sweta/Downloads/apache-tomcat-9.0.0.M9/webapps/asset-manager-react-master/TestResources/spec.js:147:39)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:96:23
+    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1082:7)
+    at controlFlowExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:82:18)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2913:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2896:21)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2820:25
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:639:7</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1469227116136" stop="1469227128612" status="passed">
+			<name>Should slide the risk profile slider to 9</name>
+			<title>Should slide the risk profile slider to 9</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="3c3c4c7f-bff1-4b0b-9270-e7482e242bf5-attachment.png" type="image/png" size="33943"/>
+			</attachments>
+		</test-case>
+		<test-case start="1469227128612" stop="1469227141030" status="passed">
+			<name>Should slide the risk profile slider to 10</name>
+			<title>Should slide the risk profile slider to 10</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="0cea268b-2e58-48fc-8d0b-c134a6dc9809-attachment.png" type="image/png" size="33888"/>
+			</attachments>
+		</test-case>
+		<test-case start="1469227141030" stop="1469227154247" status="passed">
+			<name>Should enter values of current portfolio in $ and submit</name>
+			<title>Should enter values of current portfolio in $ and submit</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e87532a9-5579-4ef8-b0e7-d949abd6c098-attachment.png" type="image/png" size="43292"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>
