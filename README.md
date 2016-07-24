@@ -26,7 +26,12 @@ Installing and Starting the Server
 - Leave the server running while you conduct your test sessions.
 - In your config file, set seleniumAddress to the address of the running server. This defaults to http://localhost:4444/wd/hub.
  (The config file conf.js in the repo already has the address of the selenium server)
- 
 
- 
+Installing the allure Jasmine Reporter
+In the same directory where Tests are written, run the following
+npm install jasmine-allure-reporter
+
+Create the reports folder
+In the same directory where Tests are written, create a folder "allure-results"
+
  Note: I already had JDK and selenium server setup. I used selenium-server -p 4444 to start the selenium server
