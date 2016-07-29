@@ -28,27 +28,27 @@ Installing and Starting the Server
  (The config file conf.js in the repo already has the address of the selenium server)
 
 Installing the protractor-jasmine2-screenshot-reporter
-In the same directory where Tests are written, run the following
+- In the same directory where Tests are written, run the following
 npm install protractor-jasmine2-screenshot-reporter --save-dev
 
 Create the reports folder
-In the same directory where Tests are written, create a folder structure "target/Reports"
+- In the same directory where Tests are written, create a folder structure "target/Reports"
 
 Run the test
-To run test in local environment 
-protractor conf.js
+- To run test in local environment 
+    protractor conf.js
 
 To run the test on BrowserStack
-Install the Browserstacklocal binary from https://www.browserstack.com/local-testing
-Run the command ./BrowserStackLocal gHEorNfXzF38p5xzfYG2 localhost,8080,0 in the same directory where Browserstack is installed
-Then use the Browserstack specific test file to run the test as below:
-protractor browserstacks_conf.js
+- Install the Browserstacklocal binary from https://www.browserstack.com/local-testing
+- Run the command ./BrowserStackLocal gHEorNfXzF38p5xzfYG2 localhost,8080,0 in the same directory where Browserstack is installed
+- Then use the Browserstack specific test file to run the test as below:
+    protractor browserstacks_conf.js
 
 Reports
-The Reports are generated in HTML format in target/Reports/my-report.html
-Latest report is appended to end of the html
+- The Reports are generated in HTML format in target/Reports/my-report.html
+- Latest report is appended to end of the html
 
 Screenshots
-Screenshots are taken every function and stored in the target/Reports/chrome folder in this repo (as all tests were run in chrome)
+- Screenshots are taken every function and stored in the target/Reports/chrome folder in this repo (as all tests were run in chrome)
 
  Note: I already had JDK and selenium server setup. I used selenium-server -p 4444 to start the selenium server
