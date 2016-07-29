@@ -5,13 +5,12 @@ var HtmlReporter = require('protractor-jasmine2-screenshot-reporter');
 var today = new Date(),
     timeStamp = today.getMonth() + 1 + '-' + today.getDate() + '-' + today.getFullYear() + '-' + today.getHours() + 'h-' + today.getMinutes() + 'm';
 
-
 var reporter = new HtmlReporter({
   cleanDestination: false,
   showSummary: true,
   showConfiguration: true,
   showQuickLinks: true,
-  reportTitle: "React App Asset manager -- Test run on: " + timeStamp,	
+  reportTitle: "React App Asset manager -- Test run on: " + timeStamp,
   dest: 'target/Reports',
   filename: 'my-report.html',
   pathBuilder: function(currentSpec, suites, browserCapabilities) {
@@ -42,9 +41,23 @@ exports.config = {
    },
 
    framework: 'jasmine',
-   seleniumAddress: 'http://localhost:4444/wd/hub',
+   seleniumAddress: 'http://hub-cloud.browserstack.com/wd/hub',
    specs: ['spec.js'],
 
+   capabilities: {
+   'browserstack.user' : 'swetashahi1',
+  'browserstack.key' : 'gHEorNfXzF38p5xzfYG2',
+  'browserstack.local' : 'true',
+  'acceptSslCerts' : 'true',
+
+    // Settings for the browser you want to test
+    // (check docs for difference between `browser` and `browserName`
+    'browserName' : 'chrome',
+    'browser_version' : '36.0',
+    'os' : 'OS X',
+    'os_version' : 'Mavericks',
+    'resolution' : '1024x768'
+},
 
    jasmineNodeOpts: {
 		  defaultTimeoutInterval: 60000,

@@ -65,7 +65,7 @@ describe('React Risk assessment app',function(){
     browser.sleep(5000); 
   
 
-    var default_bonds =element(by.xpath("//span[contains(text(),'Bonds:')]/following-sibling::span[1][contains(text(),'10')]"));
+    var default_bonds =element(by.xpath("//span[contains(text(),'Bonds:')]/following-sibling::span[1][contains(text(),'15')]"));
     expect(default_bonds.isPresent()).toBe(true);
     console.log('Bonds value verified at 6');
 
@@ -82,7 +82,7 @@ describe('React Risk assessment app',function(){
     expect(default_RealEstate.isPresent()).toBe(true);
     console.log('Real Estate value verified at 6');
 
-    var default_Cash =element(by.xpath("//span[contains(text(),'Cash:')]/following-sibling::span[1][contains(text(),'45')]"));
+    var default_Cash =element(by.xpath("//span[contains(text(),'Cash:')]/following-sibling::span[1][contains(text(),'60')]"));
     expect(default_Cash.isPresent()).toBe(true);
     console.log('Cash value verified at 6');
 
